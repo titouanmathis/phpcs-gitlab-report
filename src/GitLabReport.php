@@ -49,7 +49,7 @@ class GitLabReport implements Report
         $width = 80,
         $interactive = false,
         $toScreen = true
-    ): void {
+    ) {
         echo '[' . rtrim($cachedData, ',') . ']';
     }
 }

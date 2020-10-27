@@ -23,7 +23,7 @@ class GitLabReportTest extends TestCase
     /**
      * @depends testGenerateFileReport
      */
-    public function testGenerate(string $fileReport): void
+    public function testGenerate(string $fileReport)
     {
         $fullReport = $this->getFullReport();
 
